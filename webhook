@@ -24,6 +24,7 @@ pipeline {
                    echo "${NODE_NAME}"
                    echo "${NameParam}"
                    echo "${Environment}"
+                   pwd
                 '''
             }
         }
